@@ -11,6 +11,25 @@
       <e p="Controllers" t="Include">
         <e p="WeatherForecastController.cs" t="Include" />
       </e>
+      <e p="Models" t="Include">
+        <e p="dbContext.cs" t="Include" />
+        <e p="DTO" t="Include" />
+        <e p="Entities" t="Include">
+          <e p="Admin_member.cs" t="Include" />
+          <e p="BaseEntites.cs" t="Include" />
+          <e p="Constant.cs" t="Include" />
+          <e p="Customers.cs" t="Include" />
+          <e p="Customers_address.cs" t="Include" />
+          <e p="Product_category.cs" t="Include" />
+          <e p="Shop.cs" t="Include" />
+          <e p="Shop_Address.cs" t="Include" />
+          <e p="shop_pic.cs" t="Include" />
+        </e>
+        <e p="EntityConfiguration" t="Include">
+          <e p="BaseEntityConfiguration.cs" t="Include" />
+          <e p="ShopConfiguration.cs" t="Include" />
+        </e>
+      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netcoreapp3.1" t="Include">
