@@ -18,7 +18,7 @@ namespace WebAppTest.Models.EntityConfiguration
         {
            // throw new System.NotImplementedException();
             builder.HasKey(c => c.id);
-            builder.Property(c => c.id).ValueGeneratedOnAdd().HasValueGenerator<GuidValueGenerator>();
+            builder.Property(c => c.id).IsRequired().ValueGeneratedOnAdd().HasValueGenerator<GuidValueGenerator>();
             builder.Property(c => c.title).IsRequired().HasMaxLength(500);
             builder.Property(c => c.modified_at).IsRequired();
             builder.Property(c => c.created_at).IsRequired();

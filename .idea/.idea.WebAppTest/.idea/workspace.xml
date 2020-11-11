@@ -13,22 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1b90f8c-3ba7-4dd9-a4eb-a4b40a1b4847" name="Default Changelist" comment="Initialize2">
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Admin_member.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/BaseEntites.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Constant.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Customers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Customers_address.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Product_category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Shop.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Shop_address.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/Entities/Shop_pic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/EntityConfiguration/BaseEntityConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/EntityConfiguration/ShopConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/dbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebAppTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebAppTest/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="d1b90f8c-3ba7-4dd9-a4eb-a4b40a1b4847" name="Default Changelist" comment="2">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebAppTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebAppTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAppTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppTest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/EntityConfiguration/BaseEntityConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/EntityConfiguration/BaseEntityConfiguration.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604299390972</updated>
       <workItem from="1604299421455" duration="4893000" />
-      <workItem from="1604733105472" duration="25990000" />
+      <workItem from="1604733105472" duration="26703000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize">
       <created>1604299527764</created>
@@ -127,7 +114,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604299628659</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2">
+      <created>1605080622685</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605080622685</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2">
+      <created>1605080649340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605080649340</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +152,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initialize" />
     <MESSAGE value="Initialize2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize2" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="547" y="140" key="RollbackChangesDialog" timestamp="1604734281592">
@@ -162,5 +164,9 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1604301993511" />
+    <state x="312" y="149" key="Vcs.Push.Dialog.v2" timestamp="1605081137546">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="149" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1605081137546" />
   </component>
 </project>
