@@ -26,6 +26,8 @@ namespace WebAppTest.Models
         {
             base.OnModelCreating(modelBuilder);
             //modelBuilder.HasDefaultSchema("public");
+            modelBuilder.Entity<Shop>().HasQueryFilter(p => (p.Allow_Delete) == false);
+            modelBuilder.Entity<Shop>().HasQueryFilter(p => EF.Property<bool>(p, "Allow_Delete") == false);
         }
     }
 }

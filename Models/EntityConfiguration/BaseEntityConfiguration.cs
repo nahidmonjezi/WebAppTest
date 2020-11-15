@@ -6,17 +6,19 @@ using WebAppTest.Models.Entities;
 
 namespace WebAppTest.Models.EntityConfiguration
 {
-    
-    public abstract class BaseEntityConfiguration<T>:IEntityTypeConfiguration<T> where T:BaseEntites
+
+    public abstract class BaseEntityConfiguration<T> : IEntityTypeConfiguration<T> where T : BaseEntites
     {
         private readonly Guid _shopid;
+
         protected BaseEntityConfiguration(Guid shopid)
         {
-            _shopid=shopid;
+            _shopid = shopid;
         }
+
         public virtual void Configure(EntityTypeBuilder<T> builder)
         {
-           // throw new System.NotImplementedException();
+            // throw new System.NotImplementedException();
             builder.HasKey(c => c.id);
             builder.Property(c => c.id).IsRequired().ValueGeneratedOnAdd().HasValueGenerator<GuidValueGenerator>();
             builder.Property(c => c.title).IsRequired().HasMaxLength(500);
@@ -24,6 +26,7 @@ namespace WebAppTest.Models.EntityConfiguration
             builder.Property(c => c.created_at).IsRequired();
 
             builder.HasQueryFilter(c => c.shopid == _shopid);
+
         }
     }
 }

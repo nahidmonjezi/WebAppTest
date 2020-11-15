@@ -13,9 +13,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1b90f8c-3ba7-4dd9-a4eb-a4b40a1b4847" name="Default Changelist" comment="2">
+    <list default="true" id="d1b90f8c-3ba7-4dd9-a4eb-a4b40a1b4847" name="Default Changelist" comment="3">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebAppTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebAppTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Entities/BaseEntites.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Entities/BaseEntites.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/EntityConfiguration/BaseEntityConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/EntityConfiguration/BaseEntityConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/EntityConfiguration/ShopConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/EntityConfiguration/ShopConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/dbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/dbContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/SourceCode/WebAppTest/Models/EntityConfiguration/BaseEntityConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -37,11 +43,11 @@
         <option value="$PROJECT_DIR$/Models/Entities/Product_category.cs" />
         <option value="$PROJECT_DIR$/Models/Entities/Shop_address.cs" />
         <option value="$PROJECT_DIR$/Models/Entities/Shop_pic.cs" />
-        <option value="$PROJECT_DIR$/Models/EntityConfiguration/ShopConfiguration.cs" />
-        <option value="$PROJECT_DIR$/Models/Entities/BaseEntites.cs" />
         <option value="$PROJECT_DIR$/Models/Entities/Shop.cs" />
+        <option value="$PROJECT_DIR$/Models/Entities/BaseEntites.cs" />
         <option value="$PROJECT_DIR$/Models/dbContext.cs" />
         <option value="$PROJECT_DIR$/Models/EntityConfiguration/BaseEntityConfiguration.cs" />
+        <option value="$PROJECT_DIR$/Models/EntityConfiguration/ShopConfiguration.cs" />
       </list>
     </option>
   </component>
@@ -98,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604299390972</updated>
       <workItem from="1604299421455" duration="4893000" />
-      <workItem from="1604733105472" duration="26703000" />
+      <workItem from="1604733105472" duration="37151000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize">
       <created>1604299527764</created>
@@ -128,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605080649340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3">
+      <created>1605081286936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605081286936</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,9 +166,18 @@
     <MESSAGE value="Initialize" />
     <MESSAGE value="Initialize2" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="312" y="88" key="#Deployment" timestamp="1605081271707">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="88" key="#Deployment/0.0.1440.860@0.0.1440.860" timestamp="1605081271707" />
+    <state x="592" y="327" key="Github.ShareDialog" timestamp="1605081359185">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="592" y="327" key="Github.ShareDialog/0.0.1440.860@0.0.1440.860" timestamp="1605081359185" />
     <state x="547" y="140" key="RollbackChangesDialog" timestamp="1604734281592">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
